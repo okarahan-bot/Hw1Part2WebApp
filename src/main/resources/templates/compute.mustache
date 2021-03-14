@@ -1,0 +1,19 @@
+<title>My application</title>
+  <h1>Let's Make Some Calculations!</h1>
+  <p>In the first input area, you need to enter a list of decimal numbers. In each number, you have to press enter. In other words, every number should be in a separate line.
+     <br></br>
+     Then you need to enter the first, second and third numbers to the corresponding input areas.
+     <br></br>
+     After clicking the submit button, I will show you whether the sum of first, second and third numbers is in the list!
+   </p>  
+
+  <form action="compute" method="post">
+        <textarea name="input1" placeholder = "This area is for list of numbers." rows="10" cols="15"></textarea>
+        <textarea name="input2" placeholder = "This area is for first number." rows="10" cols="15"></textarea>
+        <textarea name="input3" placeholder = "This area is for second number." rows="10" cols="15"></textarea>
+        <textarea name="input4" placeholder = "This area is for third number." rows="10" cols="15"></textarea>
+        <br>
+        <input type="submit">
+  </form>
+
+    Result is {{result}}
